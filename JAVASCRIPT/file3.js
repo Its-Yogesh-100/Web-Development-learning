@@ -1,0 +1,6 @@
+
+
+//  NAMING THE VARIABLES
+
+
+
