@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <!-- this below line is external script -->
+    <!-- <script src="1.js" type="text/javascript"></script> -->
+    
+     <!-- Below script is internal script -->
+     <script type="text/JavaScript">
+        function hello() {
+            alert(" hello");
+
+        }
+        // this funtion is eventhandler will work on mouse hover
+
+        function EventHandler() {
+            alert("I m event handler");
+        }
+     </script>
+</head>
+<body>
+    <input type="button" onclick="hello();" name="ok" value="click me"/>
+    <br>
+    
+    <center><h1 style="font-size: 10;"> HELLO</h1></center>
+     <br>
+    <p onmouseover="EventHandler();"> Bring your mouse here</p>
+
+    <br>
+    <blink> <font type="veranda" color="red" size="5"> this text will blink</font></blink>
+</body>
+</html>
