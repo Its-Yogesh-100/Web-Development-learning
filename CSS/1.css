@@ -1,0 +1,19 @@
+body{
+
+    background-color: yellowgreen;
+
+}
+
+
+.align{
+    text-align: center;
+
+    font-size: xx-large;
+
+    color: slateblue;
+    font-weight: bolder;
+}
+
+h1{
+    text-transform: capitalize;
+}
