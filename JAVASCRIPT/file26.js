@@ -4,6 +4,8 @@
 // arrays are mutable
 // means that you can change the value  of array
 
+// u can store any data type in array
+
 
 // array is object in java script
 // HOW TO CREATE ARRAYS

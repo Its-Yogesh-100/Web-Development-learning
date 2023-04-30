@@ -18,5 +18,6 @@ else
 // insist of this we can use ternary operator
 
 let a=0;
+console.log(` before compasirion ${a}`);
 let d=a>=20? "coffee":"milk";
 console.log(d);

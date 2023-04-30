@@ -29,6 +29,8 @@ console.log("pop item is ",popu);
 // unshift function helps to add element in start
 // u can also add multiple items
 
+
+
 fruits.unshift("watermeleon");
 fruits.unshift("apple");
 console.log(fruits);

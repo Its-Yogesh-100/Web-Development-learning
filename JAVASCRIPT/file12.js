@@ -22,7 +22,10 @@ console.log(n11==n22);
 console.log(n11===n2);
 
 
-// not equal to
+// not equal to !=
+
+// this check value of two data type not the data type
+// whether it is string or number
 
 
 let kk='7';
@@ -30,4 +33,6 @@ let kkk=7;
 console.log(kk!=kkk);
 
 // for not equal we use ! = =
+// it check value and data type both 
+
 console.log(kk!==kkk);
