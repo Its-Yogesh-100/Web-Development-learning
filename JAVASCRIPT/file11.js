@@ -1,4 +1,9 @@
 // UNDEFINED
+
+// let firstname;
+
+// console.loG(firstname)-->undefined
+
 //NULL
 
 let Fname;
@@ -40,6 +45,8 @@ console.log("the range of number is ",Number.MAX_SAFE_INTEGER);
 // to store more big number we can use BIGINT datatype
 
 let num= BigInt(1234979494634943167461654646);
+
+// let num=50n--> this is also a big int
 let k=BigInt(10);
 
 // this is also a way to declare bigint variable

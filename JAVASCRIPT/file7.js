@@ -48,4 +48,9 @@ console.log(firstName);
 
 let newVar=firstName.slice(2,4); // 4 is excluded
 console.log(newVar);
+
+
+let n="hello";
+n=n.slice(1,4);
+console.log(n);
 // output will be "yoge"

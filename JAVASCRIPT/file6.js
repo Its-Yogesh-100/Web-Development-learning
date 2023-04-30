@@ -17,4 +17,4 @@ console.log(firstName[firstName.length-1]);
 
 // printing the second last element of stringf
 
-console.log(firstName[firstName.length-2]);
+console.log(firstName[firstName.length-2]); 
