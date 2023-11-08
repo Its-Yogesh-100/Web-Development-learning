@@ -167,14 +167,42 @@
 
 
 // innerhtml
-const pk=document.querySelector(".headline")
-console.log(pk.innerHTML)
+// const pk=document.querySelector(".headline")
+// console.log(pk.innerHTML)
 
-// adding new html
+// // adding new html
 
-pk.innerHTML= "<h1> inner html changed </h1>"
-pk.innerHTML+="<button class=\"btn\"> learn more </button>"
+// pk.innerHTML= "<h1> inner html changed </h1>"
+// pk.innerHTML+="<button class=\"btn\"> learn more </button>"
 
 //****************************************************** */
 
+// to get root node 
+
+const rootNode=document.getRootNode();
+console.log(rootNode)
+
+// methods to see all the childs of root node
+
+
+const htmlElementNode=rootNode.childNodes[1]
+console.log(htmlElementNode)
+
+//.childNodes use to check the child in the list
+
+// console.log(htmlElementNode.childNodes) 
+//this is the output of above NodeList(3) [head, text, body]
+
+const headElement=htmlElementNode.childNodes[0]
+console.log(headElement)
+
+// to get the body node element from root node
+
+const bodyElement=htmlElementNode.childNodes[2]
+console.log(bodyElement)
+
+// How to get parent node of any element
+console.log(bodyElement.parentNode)
+
+//sibling realtionship in dom
 
