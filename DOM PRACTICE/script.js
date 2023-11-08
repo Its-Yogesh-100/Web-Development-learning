@@ -205,4 +205,10 @@ console.log(bodyElement)
 console.log(bodyElement.parentNode)
 
 //sibling realtionship in dom
+// how to check who is the next sibling of head node
+
+console.log("sibling",headElement.nextSibling)
+
+// now next sibling of text element
+console.log("sibling",headElement.nextSibling.nextSibling)
 
