@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
 }
 
 a{
@@ -21,6 +22,10 @@ a{
 
 }
 
+.bg-dark{
+    background-color: black;
+    color: white;
+}
 
 .container{
     max-width: 1200px;
@@ -98,6 +103,21 @@ a{
     font-weight: bold;
 }
 
+.todo-list{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+    
+
+}
+
+.todo-list li{
+    padding:0.7rem;
+    background: #444;
+    color: cyan;
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
 .section-signup{
     margin:5rem auto;
     text-align: center;

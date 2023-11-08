@@ -179,36 +179,111 @@
 
 // to get root node 
 
-const rootNode=document.getRootNode();
-console.log(rootNode)
+// const rootNode=document.getRootNode();
+// console.log(rootNode)
 
-// methods to see all the childs of root node
+// // methods to see all the childs of root node
 
 
-const htmlElementNode=rootNode.childNodes[1]
-console.log(htmlElementNode)
+// const htmlElementNode=rootNode.childNodes[1]
+// console.log(htmlElementNode)
 
-//.childNodes use to check the child in the list
+// //.childNodes use to check the child in the list
 
-// console.log(htmlElementNode.childNodes) 
-//this is the output of above NodeList(3) [head, text, body]
+// // console.log(htmlElementNode.childNodes) 
+// //this is the output of above NodeList(3) [head, text, body]
 
-const headElement=htmlElementNode.childNodes[0]
-console.log(headElement)
+// const headElement=htmlElementNode.childNodes[0]
+// console.log(headElement)
 
-// to get the body node element from root node
+// // to get the body node element from root node
 
-const bodyElement=htmlElementNode.childNodes[2]
-console.log(bodyElement)
+// const bodyElement=htmlElementNode.childNodes[2]
+// console.log(bodyElement)
 
-// How to get parent node of any element
-console.log(bodyElement.parentNode)
+// // How to get parent node of any element
+// console.log(bodyElement.parentNode)
 
-//sibling realtionship in dom
-// how to check who is the next sibling of head node
+// //sibling realtionship in dom
+// // how to check who is the next sibling of head node
 
-console.log("sibling",headElement.nextSibling)
+// console.log("sibling",headElement.nextSibling)
 
-// now next sibling of text element
-console.log("sibling",headElement.nextSibling.nextSibling)
+// // now next sibling of text element
+// console.log("sibling",headElement.nextSibling.nextSibling)
+
+// // this method will give next elemnent in the document tree
+
+// console.log(headElement.nextElementSibling)
+
+
+// below code helps to change color of parent node of particular element
+
+// const h1=document.querySelector("h1")
+// console.log(h1.parent)
+// const h1parent=h1.parentNode
+// h1parent.style.color="yellow"
+
+// some more examples
+
+// const head=document.querySelector("head")
+// console.log("head")
+
+// const title=head.querySelector("title")
+// console.log(title)
+// console.log(title.childNodes)
+
+//****************************************************** */
+
+// // goal is to check how many classes have section TransformStreamDefaultController
+// const sectionTodo=document.querySelector(".todo-section")
+// console.log(sectionTodo)
+
+// // to check how much classes
+// console.log(sectionTodo.classList)
+
+// // how to give new class with javascript
+// sectionTodo.classList.add('bg-dark')
+
+// // how to remove class from list
+// sectionTodo.classList.remove('bg-dark')
+
+// // how to check if class exist or not
+// // const ans=sectionTodo.classList.contains('oye-oey')
+// // console.log(ans)
+
+
+// // this will add if particular class is not there, remove if that class is there
+// sectionTodo.classList.toggle('bg-dark')
+// // sectionTodo.classList.toggle('bg-dark')
+
+////************************************* */
+
+// const header=document.querySelector("header")
+// console.log(header.classList)
+// header.classList.add('bg-dark')
+
+//******************************************************** */
+
+// how to add html element with the help of js
+
+// how to see the inner html inside todo list
+
+const todolist=document.querySelector('.todo-list')
+console.log(todolist.innerHTML)
+
+// // change
+// todolist.innerHTML="<li> new todo </li>"
+
+// addding new element not changing the html
+
+todolist.innerHTML=todolist.innerHTML+"<li> new todo added </li>"
+
+todolist.innerHTML+="<li> another todo added </li>"
+
+// when u should use this
+
+//////////*************************************** */
+
+// better way to do that
 
